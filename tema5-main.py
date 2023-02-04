@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     nombre = "Filemona"
     lista1 = ["Español", "Inglés", "Química"]
-    return render_template("index.html", nombre = nombre, lista = lista1)
+    return render_template("index.html", nombre = nombre, lista1 = lista1)
 
 @app.route("/usuarios")
 def usuarios():
